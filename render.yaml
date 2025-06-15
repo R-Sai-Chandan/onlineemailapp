@@ -1,0 +1,9 @@
+services:
+   -type: web
+	name: contactwebapp
+	env : docker
+	plan: free
+	dockerfilePath: Dockerfile
+	autoDeploy: true
+	branch: main
+
